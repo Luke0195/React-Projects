@@ -1,0 +1,45 @@
+.main-intro{
+  background-color:#ccc;
+  padding: 0 2%;
+  position: relative;
+}
+
+.intro-content{
+  margin:3rem 0;
+  text-align: center;
+}
+
+.intro-content h2{
+  margin: 2rem;
+  font-size:3rem;
+  line-height:4rem;
+}
+
+.intro-content p{
+  width: 100%;
+  max-width:800px;
+  margin:1rem  auto;
+  font-size:1.8rem;
+  line-height:2.4rem;
+}
+
+.arrow{
+  width:5rem;
+  height:5rem;
+  background-image: url(../../assets/img/arrow.png);
+  background-size:cover;
+  position:absolute;
+  left:50%;
+}
+
+
+@media (max-width:990px){
+  .intro-content h2{
+    font-size:2.5rem;
+  }
+
+  .intro-content p{
+    max-width: 50rem;
+    font-size:1.6rem;
+  }
+}

@@ -44,12 +44,13 @@
   width: 100%;
   max-width: 42rem;
   background-color:white;
-  padding:1.6rem;
+  padding:1rem;
   height:calc(100% + 3rem);
   position:relative;
   top:-1.5rem;
   border:0.8rem solid rgba(150,150,150,0.7);
   background-clip:padding-box;
+  z-index: 1;
 }
 
 .right-content h2{
@@ -57,12 +58,13 @@
   line-height:3rem;
   font-weight: normal;
   color:var(--form-color);
-  text-align:center
+  text-align:center;
 
 }
 
 .right-content form{
-  margin-top:2rem;
+  margin-top:1rem;
+
 }
 
 .right-content fieldset{
@@ -70,7 +72,7 @@
 }
 
 .right-content .input{
-  margin:3rem 0;
+  margin:1rem 0;
 }
 .right-content .input label{
   display:inline-block;
@@ -184,3 +186,4 @@
     font-size:1.6rem;
   }
 }
+

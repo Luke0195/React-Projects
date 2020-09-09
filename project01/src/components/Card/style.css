@@ -1,0 +1,32 @@
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  margin: 0 1rem;
+  
+}
+
+.item .img{
+  width:8rem;
+  display: inline-block;
+}
+
+.item h3{
+  margin:2rem 0;
+  font-size:2rem;
+}
+
+.item p{
+  width:100%;
+  max-width: 40rem;
+  font: size 1.7rem;
+}
+
+
+@media(max-width:780px){
+  .item{
+    margin-top:2rem 0;
+  }
+}

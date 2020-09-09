@@ -1,0 +1,24 @@
+.main-cards{
+  width:100%;
+}
+
+.cards{
+  margin:8rem 0 4rem 0;
+  display: flex;
+  text-align: center;
+}
+
+.container h2{
+  margin:5rem 0 3rem 0;
+  text-align: center;
+  font-size:2.3rem;
+  font-weight: normal;
+  color:var(--form-color);
+}
+
+
+@media(max-width:780px){
+  .cards{
+    flex-direction: column;
+  }
+}
