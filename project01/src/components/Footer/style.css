@@ -1,0 +1,11 @@
+footer{
+  width: 100%;
+  border-top:3px solid gray;
+  text-align: center;
+}
+
+footer .container > p{
+  margin: 1rem 0;
+  font-size:1.7rem;
+  color:var(--form-color);
+}
