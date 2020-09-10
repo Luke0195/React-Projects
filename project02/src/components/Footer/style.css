@@ -1,0 +1,17 @@
+footer{
+  width:100%;
+}
+
+footer > .container{
+  background-color:rgb(201, 197, 197);
+}
+
+.footer-content{
+  padding:2rem 0;
+  text-align: center;
+}
+
+.footer-content img{
+  width: 12rem;
+  height: 5rem;
+}
