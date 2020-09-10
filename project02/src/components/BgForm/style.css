@@ -1,0 +1,100 @@
+.bg-form{
+  width: 100%;
+  max-width: 120rem;
+  margin: auto;
+  height: 65rem;
+  background-image: url(../../assets//imagens/bg-form.jpg);
+  background-size:cover;
+  background-position: bottom;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.form{
+  width:100%;
+  max-width: 40rem;
+  margin-right: 2rem;
+  height: calc(100% + 1rem);  
+  position: relative;
+
+  top:-0.5rem;
+  background-color:rgba(180,180,180,0.8);
+}
+
+.form h2{
+  background-color:#ccc;
+  font-weight: 400;
+  font-size:1.9rem;
+  line-height: 2.9rem;
+  padding: 2.3rem 1rem;
+  color:#333;
+  text-transform: uppercase;
+}
+
+
+.form form{
+  padding:2rem 1rem;
+  
+}
+
+
+.form form fieldset{
+  border:0;
+}
+
+
+.form form  .input{
+  margin-top:2rem;
+}
+.form form .input:not(.campo){
+  margin:3rem 0;
+}
+
+.form form .input label{
+  display: inline-block;
+  width:100%;
+  color:#333;
+  font-size:1.5rem;
+  line-height:2.5rem;
+  margin: 0.3rem 0;
+}
+
+.form form .input input{
+  width:100%;
+  height: 5rem;
+  border: 0.1rem solid #ccc;  
+  padding-left: 0.8rem;
+  font-size:1.5rem;
+}
+
+.form form button{
+  display: inline-block;
+  width: 100%;
+  height: 5.5rem;
+  background-color: #1d415c;
+  font-size:1.9rem;
+  color:#fff;
+  border: 0;
+  text-transform: uppercase;
+
+}
+
+.form form button:hover{
+  transition:2s;
+  cursor: pointer;
+  filter:brightness(90%);
+}
+
+.form form span{
+  display: inline-block;
+  margin-top:2rem;
+  font-size:1.8rem;
+  line-height:2.8rem;
+  color:#333;
+}
+
+@media(max-width:768px){
+  .bg-form{
+    justify-content: center;
+  }
+}
