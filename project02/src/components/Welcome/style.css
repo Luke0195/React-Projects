@@ -1,0 +1,40 @@
+.welcome-section{
+  width:100%;
+}
+
+.welcome-section > .container{
+  padding: 5rem;
+  text-align: center;
+  background-color: #115c69;
+  color:#fff;
+}
+
+.welcome-section > .container h2{
+  margin: 1rem;
+  font-weight: normal;
+  font-size:3.4rem;
+}
+
+.welcome-section > .container p{
+  margin-top:2rem;
+  font-size:2rem;
+  line-height: 3rem;
+}
+
+
+@media(max-width:740px){
+  .welcome-section > .container{
+    padding:2rem;
+    text-align: center;
+  }
+
+  .welcome-section > .container h2{
+    margin-top:2rem;
+    font-size:2.4rem;
+  }
+
+  .welcome-section > .container p{
+    margin:0;
+    font-size:1.9rem;
+  }
+}

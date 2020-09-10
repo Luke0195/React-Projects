@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Header from './components/Header';
-import BgForm from './components/BgForm'
+import BgForm from './components/BgForm';
+import Welcome from './components/Welcome';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   <>
    <Header/>
    <BgForm/>
+   <Welcome/>
   </>
   );
 }
